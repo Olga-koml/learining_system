@@ -1,0 +1,59 @@
+ .git/*
+ 
+ __pycache__/
+ *.py[cod]
+ 
+ .idea
+ .DS_Store
+ .AppleDouble
+ .LSOverride
+ 
+ *.sublime-project
+ *.sublime-workspace
+
+ 
+
+# Environments
+.env
+.venv
+env/
+venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+.mypy_cache
+**/migrations/
+**/__pycache__/
+
+# папки со статикой и медиа
+media/
+
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
